@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  	<meta charset="UTF-8">
+  	<title>Robert Craig's Hangman</title>
+  	<link rel="stylesheet" tyle="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body>
+
+<div navbar="navbar">
+	<div id="navbar">
+	<p><strong>Robert Craig Games Presents Hangman</strong></p>
+	</div>
+</div>
+
+<div class="container">
+	<div id="MainBody">
+	
+		<div class="row">
+			<div class="col-md-12">
+				<div id="HangmanBox">
+				<h1><strong><u>Welcome to Hangman!</u></strong></h1><img id="Hangman.jpg" src="images/Hangman.jpg" alt="Smiley face" style="float: left; width:325px; height: 325px; margin-top: 40px; margin-left: 50px; border: solid black 1px;">
+			<div class="col-md-3">
+				<div id="AnswerKeyBox"><h3><u><strong>Answer Key</strong></u></h3><p>Pick a letter:</p>
+					<div id="underline1"></div>
+					<div id="underline2"></div>				
+					<div id="underline3"></div>
+					<div id="underline4"></div>
+					<div id="guesses"></div>
+					<div id="sorryPrompt"></div>
+				</div>
+		</div>
+	
+
+			 
+		
+	
+
+		<div class="col-md-2">
+			<div id="InstructionBox">
+			<h3><strong><u>Instructions</u></strong></h3> Take a guess and enter a letter that you think will complete the adjoining answer key. But be warned: an incorrect guess will lead to a quick end to the game. Good luck!</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div id="start" onClick="reset ()">
+					<div id="resetButton">
+						<button onclick="resetButton()">Press here to start the game!</button>
+					</div>
+			</div>
+		</div>
+</div>
+</div>
+</body>
+</html>
